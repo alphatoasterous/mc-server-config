@@ -14,9 +14,9 @@ settings:
   tps-catchup: true
   server-mod-name: Purpur
   disable-give-dropping: false
-  use-alternate-keepalive: false
+  use-alternate-keepalive: true
   allow-water-placement-in-the-end: true
-  dont-send-useless-entity-packets: false
+  dont-send-useless-entity-packets: true
   lagging-threshold: 19.0
   messages:
     cannot-ride-mob: <red>You cannot mount that mob
@@ -298,7 +298,7 @@ world-settings:
       player:
         spawn-invulnerable-ticks: 60
         invulnerable-while-accepting-resource-pack: false
-        teleport-if-outside-border: false
+        teleport-if-outside-border: true
         totem-of-undying-works-in-inventory: false
         fix-stuck-in-portal: false
         one-punch-in-creative: false
@@ -720,7 +720,7 @@ world-settings:
           damage: 2.0
       dolphin:
         ridable: false
-        disable-treasure-searching: false
+        disable-treasure-searching: true
         naturally-aggressive-to-players-chance: 0.0
         spit:
           cooldown: 20
@@ -1094,7 +1094,7 @@ world-settings:
       villager:
         ridable: false
         ridable-in-water: false
-        brain-ticks: 1
+        brain-ticks: 2
         use-brain-ticks-only-when-lagging: true
         follow-emerald-blocks: false
         can-be-leashed: false
@@ -1110,7 +1110,7 @@ world-settings:
           radius: 0
           limit: 0
         lobotomize:
-          enabled: false
+          enabled: true
           check-interval: 60
       zoglin:
         ridable: false
@@ -1120,7 +1120,7 @@ world-settings:
       zombie:
         ridable: false
         ridable-in-water: false
-        aggressive-towards-villager-when-lagging: true
+        aggressive-towards-villager-when-lagging: false
         break-door-minimum-difficulty: HARD
         bypass-mob-griefing: false
         attributes:

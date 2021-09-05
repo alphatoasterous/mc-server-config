@@ -20,7 +20,7 @@ dab:
   # tick frequency. freq = (distanceToPlayer^2) / (2^value)
   # If you want further away entities to tick less often, use 7.
   # If you want further away entities to tick more often, try 9.
-  activation-dist-mod: 8
+  activation-dist-mod: 7
   # A list of entities to ignore for activation
   blacklisted-entities: []
 # Optimizes projectile settings
@@ -31,7 +31,7 @@ projectile:
   # Controls how many chunks a projectile
   # can load in its lifetime before it gets
   # automatically removed.
-  max-loads-per-projectile: 10
+  max-loads-per-projectile: 8
 # Configures Flare, the built-in profiler
 flare:
   # Sets the server to use for profiles.

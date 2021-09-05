@@ -67,13 +67,13 @@ world-settings:
     wither-spawn-sound-radius: 0
     enable-zombie-pigmen-portal-spawns: true
     item-despawn-rate: 6000
-    view-distance: default
+    view-distance: 4
     zombie-aggressive-towards-villager: true
     hanging-tick-frequency: 100
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
-    nerf-spawner-mobs: false
-    mob-spawn-range: 8
+    nerf-spawner-mobs: false # this should be examined 
+    mob-spawn-range: 4
     end-portal-sound-radius: 0
     hopper-amount: 1
     max-tnt-per-tick: 100
@@ -102,8 +102,8 @@ world-settings:
       misc: 32
       other: 64
     merge-radius:
-      item: 2.5
-      exp: 3.0
+      item: 3.5
+      exp: 4.0
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -123,15 +123,15 @@ world-settings:
       kelp-modifier: 100
     ticks-per:
       hopper-transfer: 8
-      hopper-check: 1
+      hopper-check: 8
     entity-activation-range:
-      animals: 32
-      monsters: 32
+      animals: 16
+      monsters: 24
       raiders: 48
-      misc: 16
-      water: 16
-      villagers: 32
-      flying-monsters: 32
+      misc: 8
+      water: 8
+      villagers: 16
+      flying-monsters: 48
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
       villagers-active-for-panic: true
