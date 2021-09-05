@@ -11,6 +11,20 @@ bin/
 .classpath
 target/
 
+# ignore minecraft server stuff
+cache/
+logs/
+ops.json
+usercache.json
+whitelist.json
+banned-ips.json
+banned-players.json
+
+# ignore minecraft world
+world/
+world_nether/
+world_the_end/
+
 # Compiled class file
 *.class
 
@@ -31,3 +45,4 @@ target/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+*.gz
