@@ -1,7 +1,5 @@
-# Basic configuration for Minecraft Server instance
+# Basic configuration for [Purpur](https://purpur.pl3x.net/) 1.17.1 instance
 These are configuration files for my *possible* Minecraft server. Don't know if someone is actually interested in it, though.
-
-Using [Purpur](https://purpur.pl3x.net/) is recommended.
 
 Additional tweaking is made following these tutorials:
 * [Minecraft server optimization guide by YouHaveTrouble](https://github.com/YouHaveTrouble/minecraft-optimization)
