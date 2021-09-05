@@ -1,0 +1,5 @@
+# bStats collects some data for plugin authors like how many servers are using their plugins.
+# To honor their work, you should not disable it... but fuck it.
+enabled: false
+serverUuid: 00000000-0000-0000-0000-000000000000
+logFailedRequests: false
