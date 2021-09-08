@@ -148,7 +148,7 @@ world-settings:
     max-leash-distance: 10.0
     zombie-villager-infection-chance: -1.0
     zombies-target-turtle-eggs: true
-    spawner-nerfed-mobs-should-jump: false # this should be examined
+    spawner-nerfed-mobs-should-jump: false
     entities-target-with-follow-range: false
     delay-chunk-unloads-by: 10s
     non-player-arrow-despawn-rate: 20
@@ -159,8 +159,8 @@ world-settings:
     auto-save-interval: -1
     per-player-mob-spawns: true
     map-item-frame-cursor-limit: 128
-    enable-treasure-maps: false # Concider reenabling?
-    treasure-maps-return-already-discovered: true # false it if enable-treasure-maps is true
+    enable-treasure-maps: false
+    treasure-maps-return-already-discovered: true
     filter-nbt-data-from-spawn-eggs-and-related: true
     disable-creeper-lingering-effect: false
     duplicate-uuid-resolver: saferegen
@@ -310,7 +310,7 @@ world-settings:
       MaximumTicks: 600
     despawn-ranges:
       soft: 30
-      hard: 72 # (view-distance * 16) + 8
+      hard: 72
     lootables:
       auto-replenish: false
       restrict-player-reloot: true
