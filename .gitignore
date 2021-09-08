@@ -19,11 +19,13 @@ usercache.json
 whitelist.json
 banned-ips.json
 banned-players.json
+server.properties
 
 # ignore minecraft world
 world/
 world_nether/
 world_the_end/
+world_nullscape_end_island/
 
 # Compiled class file
 *.class
@@ -46,3 +48,4 @@ world_the_end/
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 *.gz
+.console_history
